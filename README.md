@@ -1,1 +1,1 @@
-This is my first approach of learning Reactive Programming. I will update this repository as I learn more thing about RxSwift and Combine.
+This is my first approach of learning Reactive Programming. I will update this repository as I learn more things about RxSwift and Combine.
