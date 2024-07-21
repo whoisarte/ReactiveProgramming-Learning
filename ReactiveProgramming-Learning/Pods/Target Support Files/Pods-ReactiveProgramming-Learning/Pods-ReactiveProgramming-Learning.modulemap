@@ -1,0 +1,6 @@
+framework module Pods_ReactiveProgramming_Learning {
+  umbrella header "Pods-ReactiveProgramming-Learning-umbrella.h"
+
+  export *
+  module * { export * }
+}

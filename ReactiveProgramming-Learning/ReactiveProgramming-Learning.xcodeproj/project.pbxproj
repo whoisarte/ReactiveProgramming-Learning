@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0474AF2C4C30E90012CF3F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0474AE2C4C30E90012CF3F /* APIManager.swift */; };
 		0CA77A982C4AE41D0042F6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA77A972C4AE41D0042F6FC /* AppDelegate.swift */; };
 		0CA77A9A2C4AE41D0042F6FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA77A992C4AE41D0042F6FC /* SceneDelegate.swift */; };
 		0CA77A9C2C4AE41D0042F6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA77A9B2C4AE41D0042F6FC /* ViewController.swift */; };
 		0CA77A9F2C4AE41D0042F6FC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0CA77A9E2C4AE41D0042F6FC /* Base */; };
 		0CA77AA12C4AE41E0042F6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA77AA02C4AE41E0042F6FC /* Assets.xcassets */; };
 		0CA77AA42C4AE41E0042F6FC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0CA77AA32C4AE41E0042F6FC /* Base */; };
+		3CFF594D01BB23362727AEA8 /* Pods_ReactiveProgramming_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450BB923B90A1AADC13CC603 /* Pods_ReactiveProgramming_Learning.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C0474AE2C4C30E90012CF3F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		0CA77A942C4AE41D0042F6FC /* ReactiveProgramming-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveProgramming-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA77A972C4AE41D0042F6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA77A992C4AE41D0042F6FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		0CA77AA02C4AE41E0042F6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CA77AA32C4AE41E0042F6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CA77AA52C4AE41E0042F6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450BB923B90A1AADC13CC603 /* Pods_ReactiveProgramming_Learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveProgramming_Learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C016C9F3AC5F82422BC7728A /* Pods-ReactiveProgramming-Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveProgramming-Learning.release.xcconfig"; path = "Target Support Files/Pods-ReactiveProgramming-Learning/Pods-ReactiveProgramming-Learning.release.xcconfig"; sourceTree = "<group>"; };
+		FD7315D7FA653063CB9E43E8 /* Pods-ReactiveProgramming-Learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveProgramming-Learning.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveProgramming-Learning/Pods-ReactiveProgramming-Learning.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CFF594D01BB23362727AEA8 /* Pods_ReactiveProgramming_Learning.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C0474AB2C4C300C0012CF3F /* Combine Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Combine Utilities";
+			sourceTree = "<group>";
+		};
+		0C0474AC2C4C30130012CF3F /* RxSwift Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "RxSwift Utilities";
+			sourceTree = "<group>";
+		};
+		0C0474AD2C4C30D60012CF3F /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				0C0474AE2C4C30E90012CF3F /* APIManager.swift */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		0C0474B02C4C8BB30012CF3F /* CustomTableCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomTableCell;
+			sourceTree = "<group>";
+		};
 		0CA77A8B2C4AE41D0042F6FC = {
 			isa = PBXGroup;
 			children = (
 				0CA77A962C4AE41D0042F6FC /* ReactiveProgramming-Learning */,
 				0CA77A952C4AE41D0042F6FC /* Products */,
+				1E47197EAC501440962D0D1C /* Pods */,
+				8E0198017BE7E69A4850DFC1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +94,10 @@
 		0CA77A962C4AE41D0042F6FC /* ReactiveProgramming-Learning */ = {
 			isa = PBXGroup;
 			children = (
+				0C0474B02C4C8BB30012CF3F /* CustomTableCell */,
+				0C0474AD2C4C30D60012CF3F /* APIManager */,
+				0C0474AC2C4C30130012CF3F /* RxSwift Utilities */,
+				0C0474AB2C4C300C0012CF3F /* Combine Utilities */,
 				0CA77A972C4AE41D0042F6FC /* AppDelegate.swift */,
 				0CA77A992C4AE41D0042F6FC /* SceneDelegate.swift */,
 				0CA77A9B2C4AE41D0042F6FC /* ViewController.swift */,
@@ -67,6 +109,23 @@
 			path = "ReactiveProgramming-Learning";
 			sourceTree = "<group>";
 		};
+		1E47197EAC501440962D0D1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD7315D7FA653063CB9E43E8 /* Pods-ReactiveProgramming-Learning.debug.xcconfig */,
+				C016C9F3AC5F82422BC7728A /* Pods-ReactiveProgramming-Learning.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8E0198017BE7E69A4850DFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450BB923B90A1AADC13CC603 /* Pods_ReactiveProgramming_Learning.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CA77AA82C4AE41E0042F6FC /* Build configuration list for PBXNativeTarget "ReactiveProgramming-Learning" */;
 			buildPhases = (
+				9AAA949EF02578CF815310F8 /* [CP] Check Pods Manifest.lock */,
 				0CA77A902C4AE41D0042F6FC /* Sources */,
 				0CA77A912C4AE41D0042F6FC /* Frameworks */,
 				0CA77A922C4AE41D0042F6FC /* Resources */,
+				D840CEF8D75313A998B1065B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +194,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9AAA949EF02578CF815310F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveProgramming-Learning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D840CEF8D75313A998B1065B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactiveProgramming-Learning/Pods-ReactiveProgramming-Learning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactiveProgramming-Learning/Pods-ReactiveProgramming-Learning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactiveProgramming-Learning/Pods-ReactiveProgramming-Learning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0CA77A902C4AE41D0042F6FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C0474AF2C4C30E90012CF3F /* APIManager.swift in Sources */,
 				0CA77A9C2C4AE41D0042F6FC /* ViewController.swift in Sources */,
 				0CA77A982C4AE41D0042F6FC /* AppDelegate.swift in Sources */,
 				0CA77A9A2C4AE41D0042F6FC /* SceneDelegate.swift in Sources */,
@@ -203,7 +307,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +370,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +391,7 @@
 		};
 		0CA77AA92C4AE41E0042F6FC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7315D7FA653063CB9E43E8 /* Pods-ReactiveProgramming-Learning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,6 +420,7 @@
 		};
 		0CA77AAA2C4AE41E0042F6FC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C016C9F3AC5F82422BC7728A /* Pods-ReactiveProgramming-Learning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
