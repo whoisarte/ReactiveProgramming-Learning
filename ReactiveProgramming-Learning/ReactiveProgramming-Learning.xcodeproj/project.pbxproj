@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0C0474AF2C4C30E90012CF3F /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0474AE2C4C30E90012CF3F /* APIManager.swift */; };
+		0C0474B22C4C92940012CF3F /* CustomTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0474B12C4C92940012CF3F /* CustomTableCell.swift */; };
+		0C0474B42C4C92C70012CF3F /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C0474B32C4C92C70012CF3F /* ProductViewModel.swift */; };
 		0CA77A982C4AE41D0042F6FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA77A972C4AE41D0042F6FC /* AppDelegate.swift */; };
 		0CA77A9A2C4AE41D0042F6FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA77A992C4AE41D0042F6FC /* SceneDelegate.swift */; };
 		0CA77A9C2C4AE41D0042F6FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA77A9B2C4AE41D0042F6FC /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 
 /* Begin PBXFileReference section */
 		0C0474AE2C4C30E90012CF3F /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0C0474B12C4C92940012CF3F /* CustomTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableCell.swift; sourceTree = "<group>"; };
+		0C0474B32C4C92C70012CF3F /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
 		0CA77A942C4AE41D0042F6FC /* ReactiveProgramming-Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactiveProgramming-Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA77A972C4AE41D0042F6FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CA77A992C4AE41D0042F6FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 		0C0474AC2C4C30130012CF3F /* RxSwift Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0C0474B32C4C92C70012CF3F /* ProductViewModel.swift */,
 			);
 			path = "RxSwift Utilities";
 			sourceTree = "<group>";
@@ -69,6 +74,7 @@
 		0C0474B02C4C8BB30012CF3F /* CustomTableCell */ = {
 			isa = PBXGroup;
 			children = (
+				0C0474B12C4C92940012CF3F /* CustomTableCell.swift */,
 			);
 			path = CustomTableCell;
 			sourceTree = "<group>";
@@ -242,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C0474AF2C4C30E90012CF3F /* APIManager.swift in Sources */,
+				0C0474B22C4C92940012CF3F /* CustomTableCell.swift in Sources */,
+				0C0474B42C4C92C70012CF3F /* ProductViewModel.swift in Sources */,
 				0CA77A9C2C4AE41D0042F6FC /* ViewController.swift in Sources */,
 				0CA77A982C4AE41D0042F6FC /* AppDelegate.swift in Sources */,
 				0CA77A9A2C4AE41D0042F6FC /* SceneDelegate.swift in Sources */,
